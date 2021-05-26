@@ -8,9 +8,10 @@ class TableComponent extends Component {
             <div className="container">
                 <div className="card">
                     <div className="card-header">
-                        <TableHeadComponent/>
+                        <h2>Categories</h2>
                     </div>
                     <div className="card-body">
+                        <TableHeadComponent/>
                         <TableBodyComponent/>
 
                     </div>

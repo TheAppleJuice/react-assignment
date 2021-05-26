@@ -2,12 +2,16 @@ import React from 'react';
 
 const TableHeadComponent = () => {
     return (
-        <thead className="table-bordered">
-        <tr>
-            <th scope="col"> ID</th>
-            <th scope="col"> NAME</th>
-        </tr>
-        </thead>
+        <table className="table table-striped">
+            <thead>
+            <tr>
+                <th className="m-4"> NAME</th>
+                <th className="m-4"> INFO</th>
+                <th className="m-4"> ACTION</th>
+            </tr>
+            </thead>
+        </table>
+
     );
 };
 
